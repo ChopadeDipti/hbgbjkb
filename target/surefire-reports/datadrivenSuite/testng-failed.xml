@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [datadrivenSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="datadrivenTest(failed)" verbose="0">
+    <classes>
+      <class name="maven_datadriven_readExcelfile_project.ExcelDatademo">
+        <methods>
+          <include name="loginwithdetails" invocation-numbers="1"/>
+          <include name="getApplicationurl"/>
+          <include name="browser_maximize"/>
+          <include name="Browser_closed"/>
+          <include name="open_browser"/>
+          <include name="beforeMethod"/>
+          <include name="DeteleAllCookies"/>
+          <include name="dbconnectionclosed"/>
+          <include name="capturescreenshot"/>
+        </methods>
+      </class> <!-- maven_datadriven_readExcelfile_project.ExcelDatademo -->
+    </classes>
+  </test> <!-- datadrivenTest(failed) -->
+</suite> <!-- Failed suite [datadrivenSuite] -->

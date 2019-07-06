@@ -27,7 +27,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.AfterSuite;
 
 public class ExcelDatademo {
-	WebDriver driver;
+	
   @Test(dataProvider = "getdata")
   public void loginwithdetails(String uname, String password) {
 	  

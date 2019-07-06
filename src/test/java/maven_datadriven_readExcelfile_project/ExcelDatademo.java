@@ -28,7 +28,7 @@ import org.testng.annotations.AfterSuite;
 
 public class ExcelDatademo {
 	
-  @Test(dataProvider = "getdata")
+  
   public void loginwithdetails(String uname, String password) {
 	  
 	  driver.findElement(By.name("userName")).sendKeys(uname);
